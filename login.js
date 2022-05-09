@@ -32,6 +32,8 @@ window.addEventListener("load", function () {
 
     if (isEmail) {
       alert("đăng nhập thành công, bây giờ đến trang chủ nhé");
+      window.localStorage.setItem("login", JSON.stringify(user));
+
       window.location.href = "./index.html";
     }
   });
