@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./register.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="info-user">
+      <div class="div"></div>
+      <div class="model-user">
+        <h2>Đáng kí thông tin</h2>
+        <form action="#" method="post" class="register">
+          <div class="row-info">
+            <span class="hoten">Họ Tên:</span>
+            <input type="text" class="value-hoten" placeholder="không rỗng" />
+          </div>
+          <div class="error error-name"></div>
+          <div class="row-info">
+            <span class="gioitinh">Giới tính:</span>
+            <select class="value-gioitinh">
+              <option value="0">--chọn--</option>
+              <option value="1">Nam</option>
+              <option value="2">Nữ</option>
+            </select>
+          </div>
+          <div class="row-info">
+            <span class="age">Tuổi</span>
+            <input
+              type="text"
+              class="value-age"
+              placeholder=" lớn hơn 18 hoặc bé hơn 45"
+            />
+          </div>
+          <div class="error error-age"></div>
+
+          <div class="row-info">
+            <span class="sdt">Số DT:</span>
+            <input type="text" class="value-sdt" placeholder="nhập 10 số" />
+          </div>
+          <div class="error error-sdt"></div>
+
+          <div class="row-info">
+            <span class="eamil">Email:</span>
+            <input
+              type="text"
+              class="value-email"
+              placeholder="abc@gmail.com"
+            />
+          </div>
+          <div class="error error-email"></div>
+
+          <div class="row-info">
+            <span class="khoa">Mã bảo hiểm</span>
+            <input type="text" class="value-bh" placeholder="12345HC" />
+          </div>
+          <div class="error error-bh"></div>
+
+          <div class="row-info">
+            <div></div>
+            <div class="button">
+              <button class="dangki" type="submit">Đăng kí</button>
+              <button class="dangki" type="reset">Hủy</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./regis.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.info-user {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    margin: 20px 0;
+}
+
+.model-user {
+    width: 600px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.model-user h2 {
+    margin: 0;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 8px;
+    background-color: aqua;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.row-info {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+    margin: 12px 0;
+}
+
+.value-sdt,
+
+.value-eamil {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
