@@ -45,6 +45,11 @@
 
 }
 
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
 .user {
     padding: 4px;
     background-color: #fff;
@@ -149,4 +154,9 @@
 
 .value-eamil {
     font-weight: bold;
+}
+
+.info-login a {
+    text-decoration: none;
+    color: #fff;
 }
